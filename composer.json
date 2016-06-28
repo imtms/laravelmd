@@ -1,0 +1,20 @@
+{
+    "name": "imtms/laravelmd",
+    "description": "Markdown Parser for Laravel",
+    "type": "package",
+    "keywords": ["laravel", "markdown", "Parser"],
+    "homepage": "https://github.com/imtms/laravelmd",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imtms",
+            "email": "tms@live.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "imtms\\laravelmd\\": "src/"
+        }
+    },
+    "require": {}
+}
