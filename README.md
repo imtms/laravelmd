@@ -3,6 +3,8 @@ laravelmd - A Markdown Parser for Laravel
 > Based on [PHP-Markdown](http://michelf.com/projects/php-markdown/) 
 
 ## Installation
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimtms%2Flaravelmd.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimtms%2Flaravelmd?ref=badge_shield)
+
 
 To get the latest version of laravelmd, simply require the project using [Composer](https://getcomposer.org):
 
@@ -44,3 +46,6 @@ You can register the Markdown facade in the `aliases` key of your `config/app.ph
 ## License
 
 [The MIT License (MIT)](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimtms%2Flaravelmd.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimtms%2Flaravelmd?ref=badge_large)
