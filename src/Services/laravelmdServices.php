@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: imtms
@@ -11,11 +12,11 @@ use imtms\laravelmd\Libraries\MarkdownExtraExtended;
 
 class laravelmdServices
 {
-	protected $parser;
+    protected $parser;
     public function __construct(MarkdownExtraExtended $parser)
-	{
-		$this->parser = $parser;
-	}
+    {
+        $this->parser = $parser;
+    }
     public function convert($text)
     {
         return $this->parser->transform($text);

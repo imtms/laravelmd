@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: imtms
@@ -17,7 +18,8 @@ class laravelmd extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor(){
+    protected static function getFacadeAccessor()
+    {
         return 'laravelmd';
     }
 }

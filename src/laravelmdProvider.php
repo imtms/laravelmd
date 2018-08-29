@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: imtms
@@ -29,7 +30,7 @@ class laravelmdProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('laravelmd', function($app){
+        $this->app->bind('laravelmd', function ($app) {
             return new laravelmdServices(new MarkdownExtraExtended);
         });
     }
